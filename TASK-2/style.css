@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(4 4 57);
+  color: white;
+}
+
+/* header css code */
+
+nav {
+  background-color: rgb(24 24 103);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 88px;
+  gap: 0px 239px;
+  margin-top: 15px;
+}
+.right ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 0px 70px;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.right li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+
+.right ul li a:hover {
+  cursor: pointer;
+  color: rgb(188, 188, 220);
+}
+
+.left {
+  font-size: 3rem;
+  font-family: "Satisfy", cursive;
+}
+
+/* main css code */
+/* section-1 css code */
+.section-1 {
+  display: flex;
+  justify-content: space-around;
+  /* margin-top: 75px; */
+  padding-top: 70px;
+  width: 100%;
+  height: 638px;
+}
+
+.section-1 div {
+  width: 30%;
+}
+.leftsection {
+  font-size: 34px;
+  margin-top: 80px;
+  font-family: "Poppins", sans-serif;
+}
+
+.purple {
+  color: #a514bc;
+}
+
+.rightsection img {
+  height: 58%;
+  margin: 52px 0px;
+}
+
+#element {
+  color: #a514bc;
+}
+
+/* hr css code */
+hr {
+  margin: 0px 40px;
+  height: 1px;
+  background: white;
+  border: 0;
+}
+
+/* section-2 css code */
+
+.section-2 {
+  /* margin: 44px 110px; */
+  padding: 44px 110px;
+  font-family: "Poppins", sans-serif;
+  height: 619px;
+}
+
+.greycolor {
+  color: grey;
+  font-size: 32px;
+}
+.section-2 h1 {
+  font-size: 45px;
+}
+
+.section-2 .box {
+  background: white;
+  height: 1px;
+  width: 1352px;
+  margin-top: 108px;
+  display: flex;
+}
+
+.section-2 .vertical {
+  height: 90px;
+  width: 1px;
+  background: white;
+  margin: 0px 220px;
+}
+
+.vertical-title1 {
+  position: relative;
+  top: 17px;
+  width: 200px;
+}
+
+.vertical-title1 .level1 {
+  width: 64px;
+  position: relative;
+  top: -109px;
+  left: -29px;
+}
+
+.vertical-title2 {
+  position: relative;
+  top: 9px;
+  width: 200px;
+}
+
+.vertical-title2 .level2 {
+  width: 81px;
+  position: relative;
+  top: -96px;
+  left: -41px;
+}
+
+.vertical-title3 {
+  position: relative;
+  top: 9px;
+  width: 200px;
+}
+
+.vertical-title3 .level3 {
+  width: 81px;
+  position: relative;
+  top: -96px;
+  left: -41px;
+}
+
+/* section-3 css code */
+
+.section-3 {
+  height: 864px;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Poppins", sans-serif;
+  padding-top: 6rem;
+}
+
+.aboutme {
+  width: 508px;
+  height: 750px;
+  background-color: rgb(10 10 103);
+  box-shadow: 5px 5px 15px #a1b6bd;
+}
+
+.aboutme h2 {
+  font-size: 40px;
+  margin: 14px 18px;
+}
+
+.aboutme img {
+  width: 146px;
+  height: 183px;
+  border-radius: 12px;
+  margin-left: 164px;
+  margin-top: 9px;
+}
+
+.aboutme p {
+  padding: 30px 37px;
+  font-size: 20px;
+}
+
+.aboutme button {
+  font-family: "Poppins", sans-serif;
+  margin: 21px 164px;
+  padding: 8px 7px;
+  width: 175px;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.aboutme button:hover {
+  background-color: black;
+  color: white;
+}
+.contactme {
+  width: 508px;
+  height: 750px;
+  background-color: rgb(10 10 103);
+  box-shadow: 5px 5px 15px #a1b6bd;
+}
+
+.contactme h2 {
+  font-size: 40px;
+  margin: 14px 18px;
+  margin-bottom: 40px;
+}
+
+.contactme h4 {
+  margin: 40px 38px;
+  font-size: 20px;
+}
+
+.logo {
+  padding: 33px 31px;
+}
+.logo li {
+  display: inline;
+  margin: 0px 18px;
+}
+
+.logo .linkedin {
+  width: 84px;
+}
+.logo .insta {
+  width: 56px;
+  margin-bottom: 11px;
+}
+.logo .github {
+  width: 74px;
+}
+.logo .codechef {
+  width: 56px;
+  margin-bottom: 8px;
+}
+
+/* footer css code */
+
+.footer {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  padding: 50px 50px;
+  justify-content: space-evenly;
+}
+
+.footer-first {
+  font-family: "Satisfy", cursive;
+  font-size: 30px;
+}
+.footer ul {
+  list-style: none;
+}
+
+.footer > div {
+  width: 123px;
+}
+
+.footer-rights {
+  text-align: center;
+  margin: 25px 0px;
+  color: #b6aeae;
+}
