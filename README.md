@@ -6,4 +6,7 @@ I have created a landing page of a luxury car reselling website completely using
 <h1>TASK 2 : PORTFOLIO<h1/>
 <br>
 I have created a personal portfolio website using HTML and CSS .This portfolio website shows various details about me like education,certifications,work experience and contact info and many more.
-
+<br/>
+<h1>TASK 3 : TEMPERATURE CONVERTER<h1/>
+<br>
+I have created a Temperature Converter website using HTML,CSS and Javascript.
